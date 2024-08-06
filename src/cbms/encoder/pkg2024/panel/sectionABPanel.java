@@ -344,7 +344,6 @@ public class sectionABPanel extends javax.swing.JPanel {
         lbl_ofw6 = new javax.swing.JCheckBox();
         lbl_ofw7 = new javax.swing.JCheckBox();
         lbl_ofw8 = new javax.swing.JCheckBox();
-        lbl_ofw9 = new javax.swing.JCheckBox();
         lbl_ofw10 = new javax.swing.JCheckBox();
         lbl_ofw11 = new javax.swing.JCheckBox();
         lbl_ofw12 = new javax.swing.JCheckBox();
@@ -394,6 +393,7 @@ public class sectionABPanel extends javax.swing.JPanel {
         lbl_qcid.setBackground(new java.awt.Color(2, 83, 115));
         lbl_qcid.setForeground(new java.awt.Color(255, 255, 255));
         lbl_qcid.setText("WITH QC ID?");
+        lbl_qcid.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbl_qcid.setHorizontalAlignment(SwingConstants.CENTER);
         lbl_qcid.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -405,6 +405,7 @@ public class sectionABPanel extends javax.swing.JPanel {
         lbl_civilstatus.setForeground(new java.awt.Color(255, 255, 255));
         lbl_civilstatus.setHorizontalAlignment(SwingConstants.CENTER);
         lbl_civilstatus.setText("CIVIL STATUS");
+        lbl_civilstatus.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbl_civilstatus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 lbl_civilstatusActionPerformed(evt);
@@ -414,6 +415,7 @@ public class sectionABPanel extends javax.swing.JPanel {
         lbl_ofw.setBackground(new java.awt.Color(2, 83, 115));
         lbl_ofw.setForeground(new java.awt.Color(255, 255, 255));
         lbl_ofw.setText("OFW?");
+        lbl_ofw.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbl_ofw.setHorizontalAlignment(SwingConstants.CENTER);
         lbl_ofw.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -424,6 +426,7 @@ public class sectionABPanel extends javax.swing.JPanel {
         lbl_sex.setBackground(new java.awt.Color(2, 83, 115));
         lbl_sex.setForeground(new java.awt.Color(255, 255, 255));
         lbl_sex.setText("SEX");
+        lbl_sex.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbl_sex.setHorizontalAlignment(SwingConstants.CENTER);
         lbl_sex.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -434,6 +437,7 @@ public class sectionABPanel extends javax.swing.JPanel {
         lbl_bdate.setBackground(new java.awt.Color(2, 83, 115));
         lbl_bdate.setForeground(new java.awt.Color(255, 255, 255));
         lbl_bdate.setText("BIRTHDATE");
+        lbl_bdate.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbl_bdate.setHorizontalAlignment(SwingConstants.CENTER);
         lbl_bdate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -464,6 +468,10 @@ public class sectionABPanel extends javax.swing.JPanel {
         lbl_ofw6.setBackground(new java.awt.Color(2, 83, 115));
         lbl_ofw6.setForeground(new java.awt.Color(255, 255, 255));
         lbl_ofw6.setText("HIGHEST GRADE COMPLETED");
+        lbl_ofw6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lbl_ofw6.setMaximumSize(new java.awt.Dimension(405, 25));
+        lbl_ofw6.setMinimumSize(new java.awt.Dimension(405, 25));
+        lbl_ofw6.setPreferredSize(new java.awt.Dimension(405, 25));
         lbl_ofw.setHorizontalAlignment(SwingConstants.CENTER);
         lbl_ofw6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -491,19 +499,13 @@ public class sectionABPanel extends javax.swing.JPanel {
             }
         });
 
-        lbl_ofw9.setBackground(new java.awt.Color(2, 83, 115));
-        lbl_ofw9.setForeground(new java.awt.Color(255, 255, 255));
-        lbl_ofw9.setText("PUBLIC OR PRIVATE SCHOOL");
-        lbl_ofw.setHorizontalAlignment(SwingConstants.CENTER);
-        lbl_ofw9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                lbl_ofw9ActionPerformed(evt);
-            }
-        });
-
         lbl_ofw10.setBackground(new java.awt.Color(2, 83, 115));
         lbl_ofw10.setForeground(new java.awt.Color(255, 255, 255));
         lbl_ofw10.setText("REASON FOR NOT ATTENDING SCHOOL");
+        lbl_ofw10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lbl_ofw10.setMaximumSize(new java.awt.Dimension(300, 25));
+        lbl_ofw10.setMinimumSize(new java.awt.Dimension(300, 25));
+        lbl_ofw10.setPreferredSize(new java.awt.Dimension(300, 25));
         lbl_ofw.setHorizontalAlignment(SwingConstants.CENTER);
         lbl_ofw10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -514,6 +516,10 @@ public class sectionABPanel extends javax.swing.JPanel {
         lbl_ofw11.setBackground(new java.awt.Color(2, 83, 115));
         lbl_ofw11.setForeground(new java.awt.Color(255, 255, 255));
         lbl_ofw11.setText("WORKING BY MAIN JOB");
+        lbl_ofw11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lbl_ofw11.setMaximumSize(new java.awt.Dimension(300, 25));
+        lbl_ofw11.setMinimumSize(new java.awt.Dimension(300, 25));
+        lbl_ofw11.setPreferredSize(new java.awt.Dimension(300, 25));
         lbl_ofw.setHorizontalAlignment(SwingConstants.CENTER);
         lbl_ofw11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -524,6 +530,10 @@ public class sectionABPanel extends javax.swing.JPanel {
         lbl_ofw12.setBackground(new java.awt.Color(2, 83, 115));
         lbl_ofw12.setForeground(new java.awt.Color(255, 255, 255));
         lbl_ofw12.setText("NATURE OF EMPLOYMENT");
+        lbl_ofw12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lbl_ofw12.setMaximumSize(new java.awt.Dimension(300, 25));
+        lbl_ofw12.setMinimumSize(new java.awt.Dimension(300, 25));
+        lbl_ofw12.setPreferredSize(new java.awt.Dimension(300, 25));
         lbl_ofw.setHorizontalAlignment(SwingConstants.CENTER);
         lbl_ofw12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -546,39 +556,39 @@ public class sectionABPanel extends javax.swing.JPanel {
         headerTitleLayout.setHorizontalGroup(
             headerTitleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(headerTitleLayout.createSequentialGroup()
-                .addComponent(lbl_ln, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(lbl_sex, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(7, 7, 7)
-                .addComponent(lbl_bdate, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(7, 7, 7)
-                .addComponent(lbl_civilstatus, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(7, 7, 7)
-                .addComponent(lbl_qcid, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(7, 7, 7)
-                .addComponent(lbl_ofw, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(lbl_ofw1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(lbl_ofw2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(lbl_ofw6)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(lbl_ofw7)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(lbl_ofw8)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(lbl_ofw9)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(lbl_ofw10)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(lbl_ofw11)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(lbl_ofw12)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(lbl_ofw13)
-                .addContainerGap(322, Short.MAX_VALUE))
-            .addComponent(jSeparator1)
+                .addGroup(headerTitleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(headerTitleLayout.createSequentialGroup()
+                        .addComponent(lbl_ln, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(lbl_sex, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(8, 8, 8)
+                        .addComponent(lbl_bdate, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(7, 7, 7)
+                        .addComponent(lbl_civilstatus, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(7, 7, 7)
+                        .addComponent(lbl_qcid, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(7, 7, 7)
+                        .addComponent(lbl_ofw, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(8, 8, 8)
+                        .addComponent(lbl_ofw1, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(8, 8, 8)
+                        .addComponent(lbl_ofw2, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(8, 8, 8)
+                        .addComponent(lbl_ofw6, javax.swing.GroupLayout.PREFERRED_SIZE, 405, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(8, 8, 8)
+                        .addComponent(lbl_ofw7, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(8, 8, 8)
+                        .addComponent(lbl_ofw8, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(8, 8, 8)
+                        .addComponent(lbl_ofw10, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(8, 8, 8)
+                        .addComponent(lbl_ofw11, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(8, 8, 8)
+                        .addComponent(lbl_ofw12, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(8, 8, 8)
+                        .addComponent(lbl_ofw13, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 3195, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         headerTitleLayout.setVerticalGroup(
             headerTitleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -594,7 +604,6 @@ public class sectionABPanel extends javax.swing.JPanel {
                         .addComponent(lbl_ofw6, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(lbl_ofw7, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(lbl_ofw8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(lbl_ofw9, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(lbl_ofw10, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(lbl_ofw11, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(lbl_ofw12, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -706,7 +715,7 @@ public class sectionABPanel extends javax.swing.JPanel {
                 .addComponent(lbl_expense, javax.swing.GroupLayout.PREFERRED_SIZE, 278, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(lbl_financial_account, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addGap(0, 104, Short.MAX_VALUE))
         );
         headerTitle1Layout.setVerticalGroup(
             headerTitle1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -775,7 +784,7 @@ public class sectionABPanel extends javax.swing.JPanel {
                 .addComponent(roundedRectTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 274, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addGap(0, 370, Short.MAX_VALUE))
         );
         dynamicPanel2Layout.setVerticalGroup(
             dynamicPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -798,12 +807,14 @@ public class sectionABPanel extends javax.swing.JPanel {
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(dynamicPanel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 3200, Short.MAX_VALUE)
-            .addComponent(headerTitle1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(dynamicPanel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 3221, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addGap(2, 2, 2)
                 .addComponent(headerTitle, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 195, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(headerTitle1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 245, Short.MAX_VALUE))
             .addComponent(dynamicPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
@@ -859,10 +870,6 @@ public class sectionABPanel extends javax.swing.JPanel {
     private void lbl_ofw8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lbl_ofw8ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_lbl_ofw8ActionPerformed
-
-    private void lbl_ofw9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lbl_ofw9ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_lbl_ofw9ActionPerformed
 
     private void lbl_ofw10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lbl_ofw10ActionPerformed
         // TODO add your handling code here:
@@ -920,7 +927,6 @@ public class sectionABPanel extends javax.swing.JPanel {
     public javax.swing.JCheckBox lbl_ofw6;
     public javax.swing.JCheckBox lbl_ofw7;
     public javax.swing.JCheckBox lbl_ofw8;
-    public javax.swing.JCheckBox lbl_ofw9;
     private javax.swing.JLabel lbl_online;
     public javax.swing.JCheckBox lbl_qcid;
     public javax.swing.JCheckBox lbl_sex;
